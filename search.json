@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi! I’m Ann Carlson. Here is a blog about the Husker basketball fanbase."
+  },
+  {
+    "objectID": "posts/ncaa-basketball-huskers-fanbase /index.html",
+    "href": "posts/ncaa-basketball-huskers-fanbase /index.html",
+    "title": "Ann Carlson’s Nebraska Basketball Fans Blog",
+    "section": "",
+    "text": "Code\n#1 message: false\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.0     ✔ readr     2.1.6\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.2     ✔ tibble    3.3.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.2\n✔ purrr     1.2.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nNebraska’s fanbase is the largest in the Big Ten."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Latest posts",
+    "section": "",
+    "text": "Ann Carlson’s Nebraska Basketball Fans Blog\n\n\n\nncaa\n\nbasketball\n\nhuskers\n\n\n\n\n\n\n\n\n\nApr 10, 2026\n\n\nAnn Carlson\n\n\n\n\n\nNo matching items"
+  }
+]
