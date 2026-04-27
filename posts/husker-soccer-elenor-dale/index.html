@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ann Carlson">
-<meta name="dcterms.date" content="2028-03-26">
+<meta name="dcterms.date" content="2026-04-27">
 
 <title>Elenor Dale carried Nebraska soccer in 2023 – Ann Carlson’s Blog</title>
 <style>
@@ -339,7 +339,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 26, 2028</p>
+        <p class="date">April 27, 2026</p>
       </div>
     </div>
     
@@ -376,7 +376,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>PS <span class="ot">&lt;-</span>bigten_womens_soccer <span class="sc">|&gt;</span><span class="fu">filter</span>(Institution<span class="sc">==</span><span class="st">"Penn St."</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
-<p>Nebraska soccer had one of their most highest scoring seasons in 2023.</p>
+<p>Did one player for Nebraska soccer carry the 2023 team?</p>
+<p>In 2023, the Husker soccer team scored 67 goals and made it to the Elite Eight. In their historic season, they also won the Big Ten Tournament and finished with a record of 17-4-3. In the 2024 season, the Huskers didn’t make it to the tournament.</p>
+<p>2023 was Eleanor Dale’s senior season. She scored 28 goals to lead the NCAA with the most goals in a season.</p>
+<p>Let’s look at some numbers.</p>
+<p>We are going to look at data from the 2022, 2023 and 2024 season that was taken from the NCAA website.</p>
+<p>To see how Nebraska’s goals compared to other teams in the Big Ten, we will look at the goals scored throughout three seasons. The chart is a slope chart to show the other Big Ten schools throughout three seasons.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -406,7 +411,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Nebraska had the highest number of goals"</span>, </span>
 <span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"The Huskers had the most goals out of any team in the Big Ten during the 2023 season.</span></span>
 <span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="st">In 2024 they were one of the lowest scoring teams."</span>, </span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NCAA women's soccer | By Ann Carlson"</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NCAA Women's Soccer | By Ann Carlson"</span></span>
 <span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
 <span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
 <span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
@@ -424,6 +429,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>In 2022, Nebraska finished in the middle of the Big Ten Conference with 31 goals. With Eleanor Dale’s 28 goals, the Huskers were the highest scoring team in the Big Ten for the 2023 season. After Eleanor Dale’s graduation, the Huskers were one of the lowest scoring teams during the 2024 season with only 24 goals.</p>
+<p>But how did they compare to the top teams in the Big Ten between the 2023 and 2024 season as far as assists and goals?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -464,20 +471,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="fl">29.45652</span>) <span class="sc">+</span> </span>
 <span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span><span class="fl">31.52174</span>) <span class="sc">+</span></span>
-<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(</span>
-<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Assists"</span>, </span>
-<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Goals"</span>, </span>
-<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Nebraska peaked in goals in 2023"</span>, </span>
-<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"The Huskers scored 67 goals during 2023 season. They only scored 24 in 2024."</span>, </span>
-<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NCAA women's soccer | By Ann Carlson"</span></span>
-<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
-<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
-<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
-<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>), </span>
-<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
-<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>    ) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="dv">50</span>, <span class="at">y=</span><span class="dv">35</span>, <span class="at">label=</span><span class="st">"Upper Half of Goals and Assists"</span>), <span class="at">color=</span><span class="st">"blue"</span>) <span class="sc">+</span> </span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Assists"</span>, </span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Goals"</span>, </span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Nebraska peaked in goals in 2023"</span>, </span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"The Huskers scored 67 goals during 2023 season. They only scored 24 in 2024."</span>, </span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NCAA Women's Soccer | By Ann Carlson"</span></span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>), </span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>    ) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -487,6 +495,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>This scatterplot demonstrates the difference in goals and assists between the top teams in the Big Ten from 2023 and 2024. Nebraska dropped to the lower third in assists and goals in the 2024 season. Northwestern also dropped to the lower end. Michigan State and Penn State saw similar results between both seasons.</p>
+<p>Now we have seen what Eleanor Dale did for Nebraska but how did she compare to all the other players in the NCAA?</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -511,7 +521,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">""</span>,</span>
 <span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Eleanor Dale led NCAA with most goals"</span>, </span>
 <span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Dale led the Huskers with 28 goals in the 2023 season.</span><span class="sc">\n</span><span class="st">Behind her in The Big Ten was Sarah Weber, also from Nebraska."</span>, </span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NCAA women's soccer | By Ann Carlson"</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: NCAA Women's Soccer | By Ann Carlson"</span></span>
 <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">+</span></span>
 <span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
 <span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
@@ -529,6 +539,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>Eleanor Dale led the entire NCAA with the most goals in the 2023 season. The closest player in the Big Ten was another Nebraska player, Sarah Weber.</p>
+<p>Scoring 28 goals in a season is impressive and is why Nebraska had so much success in 2023.</p>
+<p>This answers the question that one player can carry the entire Husker soccer team. Without Eleanor Dale on the team, the Huskers struggled to have an offense during the 2024 season and then did not make the NCAA tournament at all.</p>
+<p>Leading the country in goals, Dale was named first-team All-American, first-team All-Big Ten and Big Ten Forward of the Year.</p>
+<p>Eleanor Dale was able to lead her team to an Elite Eight and have one of the most historic seasons, proving one player can carry a team if they can score enough.</p>
 
 
 
